@@ -161,7 +161,7 @@ function ModuleCard({ title, description, image, index, className = "" }) {
         className="relative z-10 w-44 rounded-xl object-cover shadow-xl md:w-52"
         loading="lazy"
       />
-      <p className="relative z-10 text-centertext-sm leading-relaxed text-white">
+      <p className="relative z-10 text-center text-sm leading-relaxed text-white">
         {description}
       </p>
     </div>
@@ -173,7 +173,7 @@ const GRAIN_SVG = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
 export default function Modules() {
   return (
     <section
-      className="relative z-20 overflow-hidden bg-cream px-6 pt-15 pb-20 text-white rounded-t-3xl shadow-[0_-24px_48px_rgba(0,0,0,0.45)]"
+      className="relative z-20 overflow-hidden bg-cream px-6 md:px-10 pt-15 md:pt-20 pb-20 md:pb-28 text-white rounded-t-3xl shadow-[0_-24px_48px_rgba(0,0,0,0.45)]"
     >
       {/* Grain overlay */}
       <div
@@ -186,7 +186,7 @@ export default function Modules() {
       />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex max-w-xl flex-col items-center gap-8 md:max-w-4xl">
+      <div className="relative z-10 mx-auto flex max-w-xl flex-col items-center gap-8 md:max-w-4xl md:gap-12 lg:max-w-6xl">
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-3xl font-bold text-center text-[#6b4423] drop-shadow-md">
             Os módulos
@@ -198,7 +198,7 @@ export default function Modules() {
         </div>
 
         {/* Cards + dotted connecting line */}
-        <div className="relative grid w-full grid-cols-1 gap-7 md:grid-cols-2">
+        <div className="relative grid w-full grid-cols-1 gap-7 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
           <div
             className="absolute left-1/2 top-0 bottom-0 z-0 -translate-x-1/2 md:hidden"
             style={{

@@ -79,7 +79,7 @@ export default function FAQ() {
   const toggle = (i) => setOpenIndex((prev) => (prev === i ? null : i));
 
   return (
-    <section className="relative overflow-hidden bg-lightblue-section px-6 py-16 text-white flex flex-col items-center gap-6">
+    <section className="relative overflow-hidden bg-lightblue-section px-6 py-16 md:py-24 text-white flex flex-col items-center gap-6">
       <div
         className="pointer-events-none absolute inset-0 mix-blend-overlay"
         style={{

@@ -60,7 +60,7 @@ export default function Pricing() {
   return (
     <section
       ref={sectionRef}
-      className="relative z-30 -mt-8 overflow-hidden bg-lightblue-section px-6 py-16 text-white flex flex-col items-center gap-6 rounded-t-3xl shadow-[0_-28px_48px_-24px_rgba(0,0,0,0.45)]"
+      className="relative z-30 -mt-8 overflow-hidden bg-lightblue-section px-6 py-16 md:py-24 text-white flex flex-col items-center gap-6 rounded-t-3xl shadow-[0_-28px_48px_-24px_rgba(0,0,0,0.45)]"
     >
       {/* Grain */}
       <div
@@ -72,7 +72,7 @@ export default function Pricing() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center gap-6 w-full max-w-xs md:max-w-sm">
+      <div className="relative z-10 flex flex-col items-center gap-6 w-full max-w-xs md:max-w-md">
         <h2 className="text-3xl font-bold text-center text-slate-200 drop-shadow-md">
           Investimento
         </h2>

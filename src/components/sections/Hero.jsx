@@ -14,10 +14,10 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center gap-4">
         <img
           src={logo}
-          alt="Jornada do Escritor"
+          alt="Coleção E-books dos Gêneros"
           className="w-45 max-w-full drop-shadow-md animate-breathe md:w-80"
         />
-        <h1 className="font-serif text-3xl md:text-5xl text-center text-white-text drop-shadow-md">
+        <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-center text-white-text drop-shadow-md">
           Coleção e-book dos gêneros
         </h1>
       </div>
@@ -51,7 +51,7 @@ export default function Hero() {
       <PrimaryAddon className="text-slate-200/80" />
 
       {/* Base — Título dividido pelo SVG + Vídeo */}
-      <div className="relative z-10 w-full max-w-sm flex flex-col items-center gap-4 md:max-w-3xl">
+      <div className="relative z-10 w-full max-w-sm flex flex-col items-center gap-4 md:max-w-2xl lg:max-w-3xl">
         <h2 className="flex flex-col items-center gap-2 text-center text-xl font-semibold leading-snug text-white-text drop-shadow-md">
           Assista o vídeo abaixo de 37 segundos para conhecer todas as trilhas.
         </h2>
@@ -59,7 +59,7 @@ export default function Hero() {
           <iframe
             className="h-full w-full"
             src="https://www.youtube.com/embed/XI4Qo9TOg_0?si=0ZbWYku_eHr1DMBU"
-            title="Jornada do Escritor — Apresentação"
+            title="Coleção E-books dos Gêneros — Apresentação"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
