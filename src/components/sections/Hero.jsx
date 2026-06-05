@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       aria-label="Apresentação"
-      className="relative h-screen overflow-hidden bg-lightblue-section flex flex-col items-center justify-between px-6 py-10 pb-20 md:py-16 md:pb-28 md:max-h-[80vh]"
+      className="relative min-h-screen overflow-hidden bg-lightblue-section flex flex-col items-center justify-between gap-10 px-6 py-10 pb-20 md:min-h-0 md:h-screen md:max-h-[80vh] md:gap-0 md:py-16 md:pb-28"
     >
       <BackgroundPattern />
 
@@ -15,7 +15,7 @@ export default function Hero() {
         <img
           src={logo}
           alt="Coleção E-books dos Gêneros"
-          className="w-45 max-w-full drop-shadow-md animate-breathe md:w-80"
+          className="w-36 max-w-full drop-shadow-md animate-breathe md:w-64"
         />
         <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-center text-white-text drop-shadow-md">
           Coleção e-book dos gêneros
