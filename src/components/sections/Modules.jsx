@@ -74,10 +74,7 @@ function Professors() {
         Criados por
       </h2>
 
-      <PrimaryAddon
-        className="text-[#6b4423]"
-        bgColor="var(--color-cream)"
-      />
+      <PrimaryAddon className="text-[#6b4423]" bgColor="var(--color-cream)" />
 
       <div className="w-full max-w-sm md:max-w-md">
         <div className="overflow-hidden rounded-3xl shadow-2xl">
@@ -172,9 +169,7 @@ const GRAIN_SVG = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
 
 export default function Modules() {
   return (
-    <section
-      className="relative z-20 overflow-hidden bg-cream px-6 md:px-10 pt-15 md:pt-20 pb-20 md:pb-28 text-white rounded-t-3xl shadow-[0_-24px_48px_rgba(0,0,0,0.45)]"
-    >
+    <section className="relative z-20 overflow-hidden bg-cream px-6 md:px-10 pt-15 md:pt-20 pb-20 md:pb-28 text-white rounded-t-3xl shadow-[0_-24px_48px_rgba(0,0,0,0.45)]">
       {/* Grain overlay */}
       <div
         className="pointer-events-none absolute inset-0 mix-blend-overlay"
@@ -189,7 +184,7 @@ export default function Modules() {
       <div className="relative z-10 mx-auto flex max-w-xl flex-col items-center gap-8 md:max-w-4xl md:gap-12 lg:max-w-6xl">
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-3xl font-bold text-center text-[#6b4423] drop-shadow-md">
-            Os módulos
+            Os e-books
           </h2>
           <PrimaryAddon
             className="text-[#6b4423]"

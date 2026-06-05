@@ -85,7 +85,7 @@ export default function Pricing() {
         {/* Price */}
         <div className="flex flex-col items-center gap-1">
           <span className="mb-1 px-2 text-center text-lg font-semibold uppercase text-white">
-            Separadamente cada guia custa:
+            Separadamente cada e-book custa:
           </span>
           <span
             className="text-8xl font-black tracking-tight text-white"
@@ -94,15 +94,12 @@ export default function Pricing() {
             <span className="text-5xl align-top">R$</span> {unitaryPrice}
             <span className="text-3xl">, 90</span>
           </span>
-          <span className="text-lg font-bold tracking-widest text-white/60">
-            5x 8,00
-          </span>
         </div>
 
         {/* Price */}
         <div className="mt-2.5 flex flex-col items-center gap-4">
           <span className="mb-1 px-2 text-center text-lg font-semibold uppercase text-white">
-            E você garante a coleção completa por:
+            Mas aqui você garante a coleção completa por:
           </span>
           <span
             className="relative inline-block text-5xl md:text-8xl font-black tracking-tight text-white/70"
