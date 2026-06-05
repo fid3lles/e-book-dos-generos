@@ -105,18 +105,18 @@ export default function Pricing() {
             E você garante a coleção completa por:
           </span>
           <span
-            className="relative inline-block text-5xl font-black tracking-tight text-white/70"
+            className="relative inline-block text-5xl md:text-8xl font-black tracking-tight text-white/70"
             style={{ lineHeight: 0.8 }}
           >
-            <span className="text-3xl align-top">R$</span> 103
-            <span className="text-xl">, 20</span>
+            <span className="text-3xl md:text-5xl align-top">R$</span> 103
+            <span className="text-xl md:text-3xl">, 20</span>
             <span
               aria-hidden="true"
               className="pointer-events-none absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-white/80"
             />
           </span>
           <span
-            className="text-9xl font-black tracking-tight text-[#22c55e] drop-shadow-[0_0_14px_rgba(34,197,94,0.5)]"
+            className="md:mt-6 text-9xl font-black tracking-tight text-[#22c55e] drop-shadow-[0_0_14px_rgba(34,197,94,0.5)]"
             style={{ lineHeight: 0.8 }}
           >
             <span className="text-6xl align-top">R$</span> {price}

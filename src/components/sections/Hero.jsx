@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       aria-label="Apresentação"
-      className="relative min-h-screen overflow-hidden bg-lightblue-section flex flex-col items-center justify-between gap-10 px-6 py-10 pb-20 md:min-h-0 md:h-screen md:max-h-[80vh] md:gap-0 md:py-16 md:pb-28"
+      className="relative min-h-screen overflow-hidden bg-lightblue-section flex flex-col items-center justify-between gap-10 px-6 py-10 pb-20 md:py-16 md:pb-28"
     >
       <BackgroundPattern />
 

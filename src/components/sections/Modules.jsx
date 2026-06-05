@@ -144,7 +144,7 @@ function ModuleCard({ title, description, image, index, className = "" }) {
   return (
     <div
       ref={ref}
-      className={`relative z-10 flex w-full flex-col items-center gap-5 overflow-hidden rounded-2xl border border-white/10 px-6 py-8 shadow-[0_8px_28px_rgba(0,0,0,0.25)] text-center transition-all duration-700 ease-out ${className}`}
+      className={`relative z-10 flex w-full flex-col items-center gap-5 overflow-hidden rounded-2xl border border-white/10 px-6 py-8 shadow-[0_8px_28px_rgba(0,0,0,0.25)] text-center transition-all duration-700 ease-out lg:w-[31%] ${className}`}
       style={{
         backgroundColor: "#4c758e",
         opacity: visible ? 1 : 0,
@@ -198,7 +198,7 @@ export default function Modules() {
         </div>
 
         {/* Cards + dotted connecting line */}
-        <div className="relative grid w-full grid-cols-1 gap-7 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
+        <div className="relative grid w-full grid-cols-1 gap-7 md:grid-cols-2 md:gap-8 lg:flex lg:flex-wrap lg:justify-center lg:gap-8">
           <div
             className="absolute left-1/2 top-0 bottom-0 z-0 -translate-x-1/2 md:hidden"
             style={{
