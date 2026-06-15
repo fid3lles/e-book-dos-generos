@@ -139,7 +139,7 @@ export default function Pricing() {
 
         {/* CTA button */}
         <a
-          href="https://pay.hotmart.com/L106009699F?checkoutMode=2"
+          href="https://pay.hotmart.com/L106009699F?checkoutMode=10"
           className="buy hotmart-fb hotmart__button-checkout mt-4 block w-full rounded-full py-5 text-center text-sm font-black tracking-widest uppercase text-white animate-breathe active:scale-95 cursor-pointer"
           style={{
             backgroundColor: "rgb(34,197,94)",
