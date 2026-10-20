@@ -47,16 +47,6 @@ export default function Pricing() {
     return () => observer.disconnect();
   }, []);
 
-  // Carrega o widget da Hotmart DEPOIS que o botão já está no DOM,
-  // para que o jQuery('.hotmart-fb').fancybox() encontre o link e
-  // abra o checkout em modal (e não em uma nova janela).
-  useEffect(() => {
-    if (document.querySelector('script[src*="checkout/widget.min.js"]')) return;
-    const script = document.createElement("script");
-    script.src = "https://static.hotmart.com/checkout/widget.min.js";
-    document.head.appendChild(script);
-  }, []);
-
   return (
     <section
       ref={sectionRef}
@@ -140,7 +130,7 @@ export default function Pricing() {
         {/* CTA button */}
         <a
           href="https://pay.hotmart.com/L106009699F?checkoutMode=10"
-          className="buy hotmart-fb hotmart__button-checkout mt-4 block w-full rounded-full py-5 text-center text-sm font-black tracking-widest uppercase text-white animate-breathe active:scale-95 cursor-pointer"
+          className="buy mt-4 block w-full rounded-full py-5 text-center text-sm font-black tracking-widest uppercase text-white animate-breathe active:scale-95 cursor-pointer"
           style={{
             backgroundColor: "rgb(34,197,94)",
             boxShadow:
